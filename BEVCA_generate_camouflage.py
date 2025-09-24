@@ -1,8 +1,7 @@
 import torch.autograd
-torch.autograd.set_detect_anomaly(True)  # 帮助定位梯度问题
-import os
+torch.autograd.set_detect_anomaly(True)  
 
-# 设置环境变量，避免分布式训练问题
+
 os.environ['RANK'] = '0'
 os.environ['WORLD_SIZE'] = '1'
 os.environ['LOCAL_RANK'] = '0'
