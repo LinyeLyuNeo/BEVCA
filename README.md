@@ -13,7 +13,7 @@ You need to install PyTorch3D to support 3D operations in BEVCA. Follow the offi
 
 ### 2. Prepare Environment from BEVFormer Repository
 
-BEVCA depends on the environment and dependencies from the BEVFormer repository. Please clone and set up the BEVFormer repo as instructed there to ensure all necessary packages and configurations are ready.
+BEVCA depends on the environment and dependencies from the [BEVFormer repository](https://github.com/fundamentalvision/BEVFormer). Please clone and set up the BEVFormer repo as instructed there to ensure all necessary packages and configurations are ready.
 
 ### 3. Download and Set Up the Dataset
 
